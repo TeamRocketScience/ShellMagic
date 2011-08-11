@@ -1,0 +1,5 @@
+apt-get install zsh-beta
+cd ~
+wget https://raw.github.com/TeamRocketScience/etcMagic/master/.zshrc
+cp ~/.bash_history ~/.zsh_history
+chsh -s /bin/zsh
